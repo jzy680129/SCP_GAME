@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee85ed0c2b084cd3a672fb9fe177d1c7, type: 3}
+  m_Name: STY_Lighting_Day_Courtyard
+  m_EditorClassIdentifier: 
+  mainLightColor: {r: 1, g: 0.82, b: 0.55, a: 1}
+  mainLightIntensity: 1.25
+  mainLightEulerAngles: {x: 48, y: -35, z: 0}
+  mainLightShadows: 2
+  mainLightShadowStrength: 0.82
+  ambientSkyColor: {r: 0.52, g: 0.68, b: 0.86, a: 1}
+  ambientEquatorColor: {r: 0.37, g: 0.42, b: 0.5, a: 1}
+  ambientGroundColor: {r: 0.2, g: 0.19, b: 0.18, a: 1}
+  fogEnabled: 1
+  fogMode: 3
+  fogColor: {r: 0.58, g: 0.69, b: 0.78, a: 1}
+  fogStartDistance: 22
+  fogEndDistance: 90
+  fogDensity: 0.01
+  volumeProfile: {fileID: 11400000, guid: d972cb0b53c50824f935cf57c7fc999b, type: 2}
+  volumeWeight: 1

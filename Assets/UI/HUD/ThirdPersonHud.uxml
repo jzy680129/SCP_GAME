@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="ThirdPersonHud.uss" />
+    <ui:VisualElement name="HudRoot" class="hud-root">
+        <ui:VisualElement name="PromptLayer" class="hud-layer hud-layer--prompts" />
+        <ui:VisualElement name="ReticleRoot" class="reticle">
+            <ui:VisualElement name="ReticleDot" class="reticle-dot" />
+            <ui:VisualElement class="reticle-tick reticle-tick--top" />
+            <ui:VisualElement class="reticle-tick reticle-tick--bottom" />
+            <ui:VisualElement class="reticle-tick reticle-tick--left" />
+            <ui:VisualElement class="reticle-tick reticle-tick--right" />
+        </ui:VisualElement>
+        <ui:VisualElement name="NotificationLayer" class="hud-layer hud-layer--notifications" />
+    </ui:VisualElement>
+</ui:UXML>

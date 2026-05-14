@@ -1,0 +1,12 @@
+[
+  {
+    "source": "C:\\Users\\10304\\AppData\\Local\\Temp\\MixamoPipeline\\RunningJump\\Ch36_nonPBR@Running Jump.fbx",
+    "output": "E:\\\u9879\u76ee\\My project\\Assets\\Processed\\Mixamo\\Animations_MCP\\MX_Running_Jump.fbx",
+    "action": "MX_Running_Jump",
+    "status": "exported",
+    "frame_start": 1,
+    "frame_end": 61,
+    "renamed_bone_count": 65,
+    "export_root": "MX_Running_Jump"
+  }
+]

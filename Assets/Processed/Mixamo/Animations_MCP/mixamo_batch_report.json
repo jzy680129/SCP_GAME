@@ -1,0 +1,82 @@
+[
+  {
+    "source": "\\\\192.168.1.4\\smb\\\u6e38\u620f\u8d44\u6e90\\\u7f8e\u672f\u8d44\u6e90\\Action\\Ch12_nonPBR@Breathing Idle.fbx",
+    "output": "E:\\\u9879\u76ee\\My project\\Assets\\Processed\\Mixamo\\Animations_MCP\\MX_Breathing_Idle.fbx",
+    "action": "MX_Breathing_Idle",
+    "status": "exported",
+    "frame_start": 1,
+    "frame_end": 596,
+    "renamed_bone_count": 65,
+    "export_root": "MX_Breathing_Idle"
+  },
+  {
+    "source": "\\\\192.168.1.4\\smb\\\u6e38\u620f\u8d44\u6e90\\\u7f8e\u672f\u8d44\u6e90\\Action\\Ch36_nonPBR@Falling Idle.fbx",
+    "output": "E:\\\u9879\u76ee\\My project\\Assets\\Processed\\Mixamo\\Animations_MCP\\MX_Falling_Idle.fbx",
+    "action": "MX_Falling_Idle",
+    "status": "exported",
+    "frame_start": 1,
+    "frame_end": 42,
+    "renamed_bone_count": 65,
+    "export_root": "MX_Falling_Idle"
+  },
+  {
+    "source": "\\\\192.168.1.4\\smb\\\u6e38\u620f\u8d44\u6e90\\\u7f8e\u672f\u8d44\u6e90\\Action\\Ch36_nonPBR@Falling To Landing.fbx",
+    "output": "E:\\\u9879\u76ee\\My project\\Assets\\Processed\\Mixamo\\Animations_MCP\\MX_Falling_To_Landing.fbx",
+    "action": "MX_Falling_To_Landing",
+    "status": "exported",
+    "frame_start": 1,
+    "frame_end": 65,
+    "renamed_bone_count": 65,
+    "export_root": "MX_Falling_To_Landing"
+  },
+  {
+    "source": "\\\\192.168.1.4\\smb\\\u6e38\u620f\u8d44\u6e90\\\u7f8e\u672f\u8d44\u6e90\\Action\\Ch36_nonPBR@Jumping Down.fbx",
+    "output": "E:\\\u9879\u76ee\\My project\\Assets\\Processed\\Mixamo\\Animations_MCP\\MX_Jumping_Down.fbx",
+    "action": "MX_Jumping_Down",
+    "status": "exported",
+    "frame_start": 1,
+    "frame_end": 22,
+    "renamed_bone_count": 65,
+    "export_root": "MX_Jumping_Down"
+  },
+  {
+    "source": "\\\\192.168.1.4\\smb\\\u6e38\u620f\u8d44\u6e90\\\u7f8e\u672f\u8d44\u6e90\\Action\\Ch36_nonPBR@Jumping Up.fbx",
+    "output": "E:\\\u9879\u76ee\\My project\\Assets\\Processed\\Mixamo\\Animations_MCP\\MX_Jumping_Up.fbx",
+    "action": "MX_Jumping_Up",
+    "status": "exported",
+    "frame_start": 1,
+    "frame_end": 51,
+    "renamed_bone_count": 65,
+    "export_root": "MX_Jumping_Up"
+  },
+  {
+    "source": "\\\\192.168.1.4\\smb\\\u6e38\u620f\u8d44\u6e90\\\u7f8e\u672f\u8d44\u6e90\\Action\\Ch36_nonPBR@Running Turn 180.fbx",
+    "output": "E:\\\u9879\u76ee\\My project\\Assets\\Processed\\Mixamo\\Animations_MCP\\MX_Running_Turn_180.fbx",
+    "action": "MX_Running_Turn_180",
+    "status": "exported",
+    "frame_start": 1,
+    "frame_end": 40,
+    "renamed_bone_count": 65,
+    "export_root": "MX_Running_Turn_180"
+  },
+  {
+    "source": "\\\\192.168.1.4\\smb\\\u6e38\u620f\u8d44\u6e90\\\u7f8e\u672f\u8d44\u6e90\\Action\\Ch36_nonPBR@Standard Run.fbx",
+    "output": "E:\\\u9879\u76ee\\My project\\Assets\\Processed\\Mixamo\\Animations_MCP\\MX_Standard_Run.fbx",
+    "action": "MX_Standard_Run",
+    "status": "exported",
+    "frame_start": 1,
+    "frame_end": 44,
+    "renamed_bone_count": 65,
+    "export_root": "MX_Standard_Run"
+  },
+  {
+    "source": "\\\\192.168.1.4\\smb\\\u6e38\u620f\u8d44\u6e90\\\u7f8e\u672f\u8d44\u6e90\\Action\\Ch36_nonPBR@Walking.fbx",
+    "output": "E:\\\u9879\u76ee\\My project\\Assets\\Processed\\Mixamo\\Animations_MCP\\MX_Walking.fbx",
+    "action": "MX_Walking",
+    "status": "exported",
+    "frame_start": 1,
+    "frame_end": 62,
+    "renamed_bone_count": 65,
+    "export_root": "MX_Walking"
+  }
+]

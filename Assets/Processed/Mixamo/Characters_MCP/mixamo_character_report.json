@@ -1,0 +1,17 @@
+[
+  {
+    "source": "E:\\\u9879\u76ee\\My project\\Assets\\Raw\\Mixamo\\Characters\\Ch36_nonPBR (1).fbx",
+    "output": "E:\\\u9879\u76ee\\My project\\Assets\\Processed\\Mixamo\\Characters_MCP\\CHR_Ch36_nonPBR.fbx",
+    "status": "exported",
+    "mesh_count": 1,
+    "material_count": 1,
+    "materials": [
+      "Ch36_Body"
+    ],
+    "bone_count": 65,
+    "renamed_bone_count": 65,
+    "namespaced_bone_count": 0,
+    "namespaced_vertex_group_count": 0,
+    "has_Hips": true
+  }
+]

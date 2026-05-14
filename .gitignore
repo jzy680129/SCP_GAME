@@ -1,0 +1,88 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Local exports and diagnostics
+/exports/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+[Cc]rash[Rr]eports/
+sysinfo.txt
+
+# Project-local temporary/debug assets
+/Assets/CodexTemp/
+/Assets/CodexTemp.meta
+/Assets/Temp/
+/Assets/Temp.meta
+/Assets/Screenshots/
+/Assets/Screenshots.meta
+/Assets/_Recovery/
+/Assets/_Recovery.meta
+
+# Python cache artifacts from pipeline tools
+__pycache__/
+**/__pycache__.meta
+*.pyc
+*.pyc.meta
+
+# Build outputs and packages
+*.apk
+*.aab
+*.app
+*.exe
+*.unitypackage
+
+# IDE and generated solution files
+.idea/
+.vs/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Android/Gradle exports
+.gradle/
+**/ExportedObj/
+.consulo/
+
+# Addressables generated content
+**/Assets/AddressableAssetsData/*/*.bin*
+**/Assets/StreamingAssets/aa.meta
+**/Assets/StreamingAssets/aa/*
+
+# Plastic SCM leftovers while this project is also managed by Git
+.plastic/
+ignore.conf
+*.private
+*.private.meta
+^*.private.[0-9]+$
+^*.private.[0-9]+.meta$
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,87 @@
+:root {
+    --hud-white: rgba(255, 255, 255, 0.92);
+    --hud-soft: rgba(255, 255, 255, 0.45);
+    --hud-target: rgb(103, 232, 249);
+}
+
+.hud-root {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+}
+
+.hud-layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+}
+
+.reticle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 72px;
+    height: 72px;
+    margin-left: -36px;
+    margin-top: -36px;
+    opacity: 0.88;
+    pointer-events: none;
+}
+
+.reticle-dot {
+    position: absolute;
+    left: 34px;
+    top: 34px;
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--hud-white);
+}
+
+.reticle-tick {
+    position: absolute;
+    background-color: var(--hud-white);
+}
+
+.reticle-tick--top {
+    left: 35px;
+    top: 16px;
+    width: 2px;
+    height: 10px;
+}
+
+.reticle-tick--bottom {
+    left: 35px;
+    bottom: 16px;
+    width: 2px;
+    height: 10px;
+}
+
+.reticle-tick--left {
+    left: 16px;
+    top: 35px;
+    width: 10px;
+    height: 2px;
+}
+
+.reticle-tick--right {
+    right: 16px;
+    top: 35px;
+    width: 10px;
+    height: 2px;
+}
+
+.reticle--target {
+    opacity: 1;
+}
+
+.reticle--target .reticle-dot,
+.reticle--target .reticle-tick {
+    background-color: var(--hud-target);
+}
