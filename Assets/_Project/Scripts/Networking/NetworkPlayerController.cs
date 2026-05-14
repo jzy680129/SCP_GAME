@@ -3,11 +3,26 @@ using UnityEngine;
 
 [DisallowMultipleComponent]
 [RequireComponent(typeof(NetworkObject))]
+[RequireComponent(typeof(NetworkPlayerState))]
 public sealed class NetworkPlayerController : NetworkBehaviour
 {
     [SerializeField] private ThirdPersonLocomotionController locomotionController;
     [SerializeField] private CharacterActionStateMachine legacyActionStateMachine;
     [SerializeField] private Animator animator;
+    [SerializeField] private NetworkPlayerState playerState;
+
+    private NetworkPlayerActivityState lastSentActivityState = NetworkPlayerActivityState.Idle;
+    private bool hasSentActivityState;
+
+    private void Update()
+    {
+        if (!IsSpawned || !IsOwner || playerState == null || !playerState.IsSpawned)
+        {
+            return;
+        }
+
+        SyncOwnedActivityState();
+    }
 
     public override void OnNetworkSpawn()
     {
@@ -49,6 +64,11 @@ public sealed class NetworkPlayerController : NetworkBehaviour
         {
             animator = GetComponent<Animator>();
         }
+
+        if (playerState == null)
+        {
+            playerState = GetComponent<NetworkPlayerState>();
+        }
     }
 
     private void ApplyOwnershipState()
@@ -80,6 +100,41 @@ public sealed class NetworkPlayerController : NetworkBehaviour
         {
             BindLocalPresentation();
         }
+    }
+
+    private void SyncOwnedActivityState()
+    {
+        NetworkPlayerActivityState nextState = ResolveActivityState();
+        if (hasSentActivityState && nextState == lastSentActivityState)
+        {
+            return;
+        }
+
+        playerState.RequestSetActivityStateServerRpc(nextState);
+        lastSentActivityState = nextState;
+        hasSentActivityState = true;
+    }
+
+    private NetworkPlayerActivityState ResolveActivityState()
+    {
+        if (playerState != null && !playerState.IsAlive)
+        {
+            return NetworkPlayerActivityState.Downed;
+        }
+
+        if (playerState != null && playerState.IsInteracting)
+        {
+            return NetworkPlayerActivityState.Interacting;
+        }
+
+        if (locomotionController != null && !locomotionController.IsGrounded)
+        {
+            return NetworkPlayerActivityState.Jumping;
+        }
+
+        return locomotionController != null && locomotionController.MoveInput.sqrMagnitude > 0.01f
+            ? NetworkPlayerActivityState.Moving
+            : NetworkPlayerActivityState.Idle;
     }
 
     private void BindLocalPresentation()

@@ -26,6 +26,7 @@ The first playable milestone is a 10-15 minute vertical slice:
 - Local/Relay-ready Netcode foundation for up to 4 players.
 - One small dev zone.
 - Spawned network player prefab with local-only input, camera, and HUD ownership.
+- Synchronized player state for display name, health, stamina, contamination, alive/interacting flags, and activity state.
 - Basic interaction ray/range.
 - Two resource types.
 - Three buildable pieces: floor/foundation, wall, purifier or safety light.

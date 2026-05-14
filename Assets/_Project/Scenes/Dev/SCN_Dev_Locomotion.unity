@@ -4244,6 +4244,7 @@ GameObject:
   - component: {fileID: 1325298789}
   - component: {fileID: 1325298788}
   - component: {fileID: 1325298787}
+  - component: {fileID: 1325298785}
   m_Layer: 0
   m_Name: NetworkBootstrap
   m_TagString: Untagged
@@ -4267,6 +4268,25 @@ MonoBehaviour:
   port: 7777
   serverListenAddress: 0.0.0.0
   showRuntimeControls: 1
+--- !u!114 &1325298785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325298786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3db198a1d966c824290d9c99fef8d5af, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::NetworkPlayerStateDebugPanel
+  showPanel: 1
+  panelRect:
+    serializedVersion: 2
+    x: 12
+    y: 88
+    width: 520
+    height: 180
 --- !u!114 &1325298788
 MonoBehaviour:
   m_ObjectHideFlags: 0
