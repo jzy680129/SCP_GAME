@@ -1,0 +1,433 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6330358219765501906
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 8b1ab397e6bbd7d458d305611fed1f9a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b1ab397e6bbd7d458d305611fed1f9a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b1ab397e6bbd7d458d305611fed1f9a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b1ab397e6bbd7d458d305611fed1f9a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b1ab397e6bbd7d458d305611fed1f9a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b1ab397e6bbd7d458d305611fed1f9a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b1ab397e6bbd7d458d305611fed1f9a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b1ab397e6bbd7d458d305611fed1f9a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b1ab397e6bbd7d458d305611fed1f9a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8b1ab397e6bbd7d458d305611fed1f9a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6310994438594226006, guid: 8b1ab397e6bbd7d458d305611fed1f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5463751073228171452, guid: 8b1ab397e6bbd7d458d305611fed1f9a,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5463751073228171452, guid: 8b1ab397e6bbd7d458d305611fed1f9a,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 79424e44866b4106870e5b60d1dfa664, type: 2}
+    - target: {fileID: -2796213102455727435, guid: 8b1ab397e6bbd7d458d305611fed1f9a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.008902366
+      objectReference: {fileID: 0}
+    - target: {fileID: -2796213102455727435, guid: 8b1ab397e6bbd7d458d305611fed1f9a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.03849482
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b1ab397e6bbd7d458d305611fed1f9a,
+        type: 3}
+      propertyPath: m_Name
+      value: PF_NetworkPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b1ab397e6bbd7d458d305611fed1f9a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 8b1ab397e6bbd7d458d305611fed1f9a,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e1cbf3986740cd540b6826244213189c, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 8b1ab397e6bbd7d458d305611fed1f9a,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6162258519646862899, guid: 8b1ab397e6bbd7d458d305611fed1f9a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.0019315125
+      objectReference: {fileID: 0}
+    - target: {fileID: 6162258519646862899, guid: 8b1ab397e6bbd7d458d305611fed1f9a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.010179198
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8b1ab397e6bbd7d458d305611fed1f9a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6267230688049565703}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8b1ab397e6bbd7d458d305611fed1f9a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7483912938683142240}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8b1ab397e6bbd7d458d305611fed1f9a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 802315885179260992}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8b1ab397e6bbd7d458d305611fed1f9a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8286738426590354721}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8b1ab397e6bbd7d458d305611fed1f9a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4572673126732358405}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8b1ab397e6bbd7d458d305611fed1f9a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2373058695444892454}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8b1ab397e6bbd7d458d305611fed1f9a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7596415631237539495}
+  m_SourcePrefab: {fileID: 100100000, guid: 8b1ab397e6bbd7d458d305611fed1f9a, type: 3}
+--- !u!95 &482842745197064771 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 8b1ab397e6bbd7d458d305611fed1f9a,
+    type: 3}
+  m_PrefabInstance: {fileID: 6330358219765501906}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6564166414017884803 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8b1ab397e6bbd7d458d305611fed1f9a,
+    type: 3}
+  m_PrefabInstance: {fileID: 6330358219765501906}
+  m_PrefabAsset: {fileID: 0}
+--- !u!143 &6267230688049565703
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6564166414017884803}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Height: 1.8837837
+  m_Radius: 0.3941064
+  m_SlopeLimit: 50
+  m_StepOffset: 0.4
+  m_SkinWidth: 0.04
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0.8316182, z: 0}
+--- !u!114 &7483912938683142240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6564166414017884803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf7373d5d1d502c4fb3f27604295b97a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ThirdPersonLocomotionController
+  readKeyboardInput: 1
+  autoTurn180OnBackInput: 1
+  allowBackpedal: 0
+  lockMovementDuringTurn: 1
+  cameraTransform: {fileID: 0}
+  disableRootMotion: 1
+  walkSpeed: 1.8
+  runSpeed: 4.8
+  acceleration: 16
+  deceleration: 42
+  stopSnapSpeed: 0.08
+  rotationSpeed: 720
+  rotationSmoothTime: 0.08
+  backpedalSpeedMultiplier: 0.6
+  backpedalInputThreshold: -0.2
+  gravity: -26
+  groundedStickForce: 2
+  allowJump: 1
+  jumpHeight: 1.5
+  jumpBufferTime: 0.12
+  coyoteTime: 0.08
+  jumpCooldown: 0.18
+  airControlMultiplier: 0.4
+  fallGravityMultiplier: 1
+  movingFallGravityMultiplier: 1.05
+  jumpCutGravityMultiplier: 1.75
+  maxFallSpeed: 18
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  landingProbeDistance: 2
+  landingEnterDistance: 0.38
+  landingLeadTime: 0.12
+  landingMinFallSpeed: 2.6
+  landingProbeRadiusMultiplier: 0.75
+  minLandingNormalY: 0.55
+  landingTriggerInteraction: 1
+  stairGroundedDistance: 0.5
+  fallAnimationDelay: 0.16
+  fallAnimationMinDistance: 0.65
+  landingMoveInputThreshold: 0.1
+  landingMoveSpeedThreshold: 0.25
+  landingImpactMinSpeed: 5.5
+  landingPlanarSpeedMultiplier: 0.92
+  turn180Duration: 0.55
+  turn180Cooldown: 0.7
+  turn180InputThreshold: 0.65
+  animatorDampTime: 0.08
+--- !u!114 &802315885179260992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6564166414017884803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
+  GlobalObjectIdHash: 1949303299
+  InScenePlacedSourceGlobalObjectIdHash: 0
+  DeferredDespawnTick: 0
+  Ownership: 1
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 0
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
+  SyncOwnerTransformWhenParented: 1
+  AllowOwnerToParent: 0
+--- !u!114 &8286738426590354721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6564166414017884803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e96cb6065543e43c4a752faaa1468eb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.Components.NetworkTransform
+  ShowTopMostFoldoutHeaderGroup: 1
+  NetworkTransformExpanded: 0
+  AutoOwnerAuthorityTickOffset: 1
+  PositionInterpolationType: 0
+  RotationInterpolationType: 0
+  ScaleInterpolationType: 0
+  PositionLerpSmoothing: 1
+  PositionMaxInterpolationTime: 0.1
+  RotationLerpSmoothing: 1
+  RotationMaxInterpolationTime: 0.1
+  ScaleLerpSmoothing: 1
+  ScaleMaxInterpolationTime: 0.1
+  AuthorityMode: 1
+  TickSyncChildren: 0
+  UseUnreliableDeltas: 0
+  SyncPositionX: 1
+  SyncPositionY: 1
+  SyncPositionZ: 1
+  SyncRotAngleX: 1
+  SyncRotAngleY: 1
+  SyncRotAngleZ: 1
+  SyncScaleX: 0
+  SyncScaleY: 0
+  SyncScaleZ: 0
+  PositionThreshold: 0.001
+  RotAngleThreshold: 0.01
+  ScaleThreshold: 0.01
+  UseQuaternionSynchronization: 0
+  UseQuaternionCompression: 0
+  UseHalfFloatPrecision: 0
+  InLocalSpace: 0
+  SwitchTransformSpaceWhenParented: 0
+  Interpolate: 1
+  SlerpPosition: 0
+--- !u!114 &4572673126732358405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6564166414017884803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8d0727d5ae3244e3b569694d3912374, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.Components.NetworkAnimator
+  ShowTopMostFoldoutHeaderGroup: 1
+  NetworkAnimatorExpanded: 0
+  AuthorityMode: 1
+  m_Animator: {fileID: 482842745197064771}
+  TransitionStateInfoList:
+  - IsCrossFadeExit: 0
+    Layer: 0
+    OriginatingState: -2089788878
+    DestinationState: 1745419428
+    TransitionDuration: 0.06
+    TriggerNameHash: 1562230471
+    TransitionIndex: 0
+  - IsCrossFadeExit: 0
+    Layer: 0
+    OriginatingState: -2089788878
+    DestinationState: 737331487
+    TransitionDuration: 0
+    TriggerNameHash: 125937960
+    TransitionIndex: 1
+  - IsCrossFadeExit: 0
+    Layer: 0
+    OriginatingState: -2089788878
+    DestinationState: 549500676
+    TransitionDuration: 0.04
+    TriggerNameHash: 125937960
+    TransitionIndex: 2
+  AnimatorParameterEntries:
+    ParameterEntries:
+    - name: MoveX
+      NameHash: 675470966
+      Synchronize: 1
+      ParameterType: 1
+    - name: MoveY
+      NameHash: 1598418656
+      Synchronize: 1
+      ParameterType: 1
+    - name: Speed
+      NameHash: -823668238
+      Synchronize: 1
+      ParameterType: 1
+    - name: IsRunning
+      NameHash: -887662580
+      Synchronize: 1
+      ParameterType: 4
+    - name: Grounded
+      NameHash: 862969536
+      Synchronize: 1
+      ParameterType: 4
+    - name: Turn180
+      NameHash: 1562230471
+      Synchronize: 1
+      ParameterType: 9
+    - name: Jump
+      NameHash: 125937960
+      Synchronize: 1
+      ParameterType: 9
+    - name: VerticalVelocity
+      NameHash: -1380605809
+      Synchronize: 1
+      ParameterType: 1
+    - name: LandingSoon
+      NameHash: -1670481190
+      Synchronize: 1
+      ParameterType: 4
+    - name: GroundDistance
+      NameHash: -1263328476
+      Synchronize: 1
+      ParameterType: 1
+    - name: IsMoving
+      NameHash: 120489994
+      Synchronize: 1
+      ParameterType: 4
+  AnimatorParametersExpanded: 0
+--- !u!114 &2373058695444892454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6564166414017884803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a861246a1e956304db7e6fce9f122cec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NetworkPlayerController
+  ShowTopMostFoldoutHeaderGroup: 1
+  locomotionController: {fileID: 0}
+  legacyActionStateMachine: {fileID: 0}
+  animator: {fileID: 0}
+--- !u!114 &7596415631237539495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6564166414017884803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae8c99bee4c2fec46912512e5e26c98a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NetworkPlayerSpawnInitializer
+  ShowTopMostFoldoutHeaderGroup: 1
+  origin: {x: -1.5, y: 0, z: 0}
+  spacing: 2.25
+  columns: 2

@@ -260,6 +260,22 @@ public sealed class ThirdPersonLocomotionController : MonoBehaviour
         isRunning = running;
     }
 
+    public void SetLocalInputEnabled(bool enabled)
+    {
+        readKeyboardInput = enabled;
+
+        if (enabled)
+        {
+            return;
+        }
+
+        moveInput = Vector2.zero;
+        isRunning = false;
+        wasForwardRunning = false;
+        jumpBufferTimer = 0f;
+        currentPlanarSpeed = 0f;
+    }
+
     public void TriggerTurn180()
     {
         EnsureReferences();
