@@ -4268,6 +4268,12 @@ MonoBehaviour:
   port: 7777
   serverListenAddress: 0.0.0.0
   showRuntimeControls: 1
+  controlsRect:
+    serializedVersion: 2
+    x: 12
+    y: 12
+    width: 640
+    height: 104
 --- !u!114 &1325298785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4284,7 +4290,7 @@ MonoBehaviour:
   panelRect:
     serializedVersion: 2
     x: 12
-    y: 88
+    y: 124
     width: 520
     height: 180
 --- !u!114 &1325298788

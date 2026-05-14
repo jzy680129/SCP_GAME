@@ -14,6 +14,7 @@ public sealed class NetworkDevBootstrap : MonoBehaviour
     [SerializeField] private ushort port = 7777;
     [SerializeField] private string serverListenAddress = "0.0.0.0";
     [SerializeField] private bool showRuntimeControls = true;
+    [SerializeField] private Rect controlsRect = new Rect(12f, 12f, 640f, 104f);
 
     private NetworkManager networkManager;
     private UnityTransport unityTransport;
@@ -60,9 +61,36 @@ public sealed class NetworkDevBootstrap : MonoBehaviour
             ? $"Listening Host={networkManager.IsHost} Server={networkManager.IsServer} Client={networkManager.IsClient} LocalId={networkManager.LocalClientId}"
             : "Not listening";
 
-        GUI.Label(
-            new Rect(12f, 12f, 640f, 72f),
-            $"Dev Multiplayer\nF1 Host  F2 Client  F3 Server  F4 Shutdown\n{state}");
+        GUILayout.BeginArea(controlsRect, GUI.skin.box);
+        GUILayout.Label($"Dev Multiplayer  |  {address}:{port}");
+        GUILayout.Label($"F1 Host  F2 Client  F3 Server  F4 Shutdown  |  {state}");
+
+        GUILayout.BeginHorizontal();
+        GUI.enabled = !networkManager.IsListening;
+        if (GUILayout.Button("Host"))
+        {
+            StartHost();
+        }
+
+        if (GUILayout.Button("Client"))
+        {
+            StartClient();
+        }
+
+        if (GUILayout.Button("Server"))
+        {
+            StartServer();
+        }
+
+        GUI.enabled = networkManager.IsListening;
+        if (GUILayout.Button("Shutdown"))
+        {
+            Shutdown();
+        }
+
+        GUI.enabled = true;
+        GUILayout.EndHorizontal();
+        GUILayout.EndArea();
     }
 
     public void StartHost()

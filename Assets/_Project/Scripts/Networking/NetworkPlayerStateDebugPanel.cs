@@ -6,7 +6,7 @@ using UnityEngine;
 public sealed class NetworkPlayerStateDebugPanel : MonoBehaviour
 {
     [SerializeField] private bool showPanel = true;
-    [SerializeField] private Rect panelRect = new Rect(12f, 88f, 520f, 180f);
+    [SerializeField] private Rect panelRect = new Rect(12f, 124f, 520f, 180f);
 
     private readonly List<NetworkPlayerState> players = new();
 
