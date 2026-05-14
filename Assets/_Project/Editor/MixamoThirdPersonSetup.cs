@@ -298,7 +298,7 @@ public static class MixamoThirdPersonSetup
 
     private static GameObject EnsurePlayerCharacter()
     {
-        Animator existingAnimator = UnityEngine.Object.FindObjectsByType<Animator>(FindObjectsSortMode.None)
+        Animator existingAnimator = UnityEngine.Object.FindObjectsByType<Animator>(FindObjectsInactive.Exclude)
             .FirstOrDefault(animator => animator != null && animator.avatar != null && animator.avatar.isHuman);
         if (existingAnimator != null)
         {

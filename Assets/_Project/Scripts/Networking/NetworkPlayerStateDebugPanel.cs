@@ -19,8 +19,7 @@ public sealed class NetworkPlayerStateDebugPanel : MonoBehaviour
 
         players.Clear();
         players.AddRange(FindObjectsByType<NetworkPlayerState>(
-            FindObjectsInactive.Include,
-            FindObjectsSortMode.None));
+            FindObjectsInactive.Include));
         players.Sort((left, right) => left.PlayerId.CompareTo(right.PlayerId));
 
         GUILayout.BeginArea(panelRect, GUI.skin.box);

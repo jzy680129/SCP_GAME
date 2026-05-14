@@ -57,7 +57,7 @@ public sealed class StylizedLightingController : MonoBehaviour
             return;
         }
 
-        Light[] lights = FindObjectsByType<Light>(FindObjectsSortMode.None);
+        Light[] lights = FindObjectsByType<Light>(FindObjectsInactive.Exclude);
         foreach (Light light in lights)
         {
             if (light != null && light.type == LightType.Directional)

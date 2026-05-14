@@ -148,7 +148,7 @@ public sealed class NetworkPlayerController : NetworkBehaviour
             gtaCamera.SetTarget(transform);
         }
 
-        CinemachineOrbitTargetInput orbitInput = FindFirstObjectByType<CinemachineOrbitTargetInput>();
+        CinemachineOrbitTargetInput orbitInput = FindAnyObjectByType<CinemachineOrbitTargetInput>();
         if (orbitInput != null)
         {
             orbitInput.enabled = true;
@@ -160,7 +160,7 @@ public sealed class NetworkPlayerController : NetworkBehaviour
             locomotionController.SetCameraTransform(cameraTransform != null ? cameraTransform : transform);
         }
 
-        ThirdPersonHudController hudController = FindFirstObjectByType<ThirdPersonHudController>();
+        ThirdPersonHudController hudController = FindAnyObjectByType<ThirdPersonHudController>();
         if (hudController != null)
         {
             hudController.enabled = true;
@@ -171,7 +171,7 @@ public sealed class NetworkPlayerController : NetworkBehaviour
 
     private void SetLocalPresentationEnabled(bool enabled)
     {
-        ThirdPersonHudController hudController = FindFirstObjectByType<ThirdPersonHudController>();
+        ThirdPersonHudController hudController = FindAnyObjectByType<ThirdPersonHudController>();
         if (hudController != null)
         {
             hudController.SetReticleVisible(enabled);
