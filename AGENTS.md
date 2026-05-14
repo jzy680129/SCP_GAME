@@ -21,15 +21,18 @@ Scope: these rules apply to this Unity project root.
 
 ## Asset And Folder Rules
 
-- Runtime game scenes belong under `Assets/Scenes`. Build Settings should only include real project scenes from `Assets/Scenes`, not vendor demo scenes.
-- Runtime scripts belong under `Assets/Scripts`, grouped by responsibility such as `Animation`, `Camera`, `Gameplay`, `Inventory`, `Building`, `Networking`, `Persistence`, `UI`, and `Rendering`.
-- Project-owned runtime art belongs under stable project folders such as `Assets/Characters`, `Assets/Res`, `Assets/UI`, `Assets/Settings`, and future domain folders.
-- External asset packs must be treated as vendor source. New imports should go under `Assets/_ThirdParty/<Vendor>/<PackageName>` or another clearly vendor-owned folder. Existing vendor imports include `Assets/Knife`, `Assets/Survival_Animations`, `Assets/TextMesh Pro`, and `Assets/TutorialInfo`.
+- Project-owned content belongs under `Assets/_Project`.
+- Runtime game scenes belong under `Assets/_Project/Scenes`. Build Settings should only include real project scenes from this folder, not vendor demo scenes.
+- Runtime scripts belong under `Assets/_Project/Scripts`, grouped by responsibility such as `Animation`, `Camera`, `Gameplay`, `Inventory`, `Building`, `Networking`, `Persistence`, `UI`, and `Rendering`.
+- Editor-only tools belong under `Assets/_Project/Editor`; tests belong under `Assets/_Project/Tests`.
+- Project-owned runtime art belongs under `Assets/_Project/Art`; UI belongs under `Assets/_Project/UI`; settings and profiles belong under `Assets/_Project/Settings`.
+- External asset packs must be treated as vendor source. New imports should go under `Assets/_ThirdParty/<Vendor>/<PackageName>`. Current vendor imports include `Assets/_ThirdParty/Knife/RealBlood` and `Assets/_ThirdParty/SurvivalAnimations`. Package support/template folders such as `Assets/TextMesh Pro`, `Assets/TutorialInfo`, and `Assets/UI Toolkit` should stay isolated from project-owned content.
 - Do not edit vendor package files directly unless patching is unavoidable. Put wrappers, adapters, prefabs, material overrides, and gameplay integration scripts in project-owned folders.
 - Raw source assets and conversion outputs should stay separated:
-  - `Assets/Raw`: raw imported or source-side content that is not final runtime content.
-  - `Assets/Processed`: processed outputs from tools or pipelines.
+  - `Assets/_Project/Pipeline/Raw`: raw imported or source-side content that is not final runtime content.
+  - `Assets/_Project/Pipeline/Processed`: processed outputs from tools or pipelines.
   - Runtime-ready prefabs/materials/controllers should be promoted into project-owned runtime folders.
+- Netcode for GameObjects may maintain `Assets/DefaultNetworkPrefabs.asset` at the root. Keep that single generated asset there unless Unity package behavior changes; do not create duplicate copies under `Assets/_Project`.
 - Temporary or diagnostic folders such as `Assets/CodexTemp`, `Assets/Temp`, `Assets/Screenshots`, `Assets/_Recovery`, and root `exports` must not be referenced by production scenes or prefabs.
 - Move Unity assets through the Unity Editor or AssetDatabase whenever possible so `.meta` GUIDs and references remain intact.
 
